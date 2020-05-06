@@ -18,10 +18,10 @@ def post():
     caption+="\n#TWITTERBOT #TWEEPY"
 
     # credentials to login to twitter api
-    consumer_key = 'Laa9k527bhkw7K91INKbmqYmH'
-    consumer_secret = 'ZEN9BREiYwK9d3vaat2MSpB1npoLT9JH2hGEnKeQxKA50P7o5J'
-    access_token = '1256108033689694208-ORP1AscLt5CJ51zwN1nwHb2e3qQRJM'
-    access_secret = 'ScfTyE6fR7KmmZfQXxl3xYcfc3L0seI72VcGrCzbbfK61'
+    consumer_key = ''
+    consumer_secret = ''
+    access_token = ''
+    access_secret = ''
 
     # login to twitter account api
     auth = tp.OAuthHandler(consumer_key, consumer_secret)
